@@ -1,0 +1,12 @@
+# 本仓库只存放已发布的 Maven 制品，不在此处构建，
+# 因此不需要 Maven/Gradle 的构建产物忽略规则。
+
+# 操作系统与编辑器产物
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# 发布过程中的临时文件
+*.tmp
+*.bak

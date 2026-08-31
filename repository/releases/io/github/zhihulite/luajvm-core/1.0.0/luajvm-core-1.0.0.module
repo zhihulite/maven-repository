@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.zhihulite",
+    "module": "luajvm-core",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "luajvm-core-1.0.0.jar",
+          "url": "luajvm-core-1.0.0.jar",
+          "size": 704441,
+          "sha512": "f1ef036cbf9c3e25c6cb7a80b7653780df52a2a9bfaf08dcaa795f21089ab006227c465e127a35f5f131d087dac2d142d9c334bce6aee7f5a97b57368286ed96",
+          "sha256": "46b3aa9a78d403cbcc79794d7c700ae3d5246fe8543c96a3b15ee0072f22714a",
+          "sha1": "24726b5398e8253dc4416dc983f8061c52900b3c",
+          "md5": "e3ba10b70ed7ca5e9609d423c2670239"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "luajvm-core-1.0.0.jar",
+          "url": "luajvm-core-1.0.0.jar",
+          "size": 704441,
+          "sha512": "f1ef036cbf9c3e25c6cb7a80b7653780df52a2a9bfaf08dcaa795f21089ab006227c465e127a35f5f131d087dac2d142d9c334bce6aee7f5a97b57368286ed96",
+          "sha256": "46b3aa9a78d403cbcc79794d7c700ae3d5246fe8543c96a3b15ee0072f22714a",
+          "sha1": "24726b5398e8253dc4416dc983f8061c52900b3c",
+          "md5": "e3ba10b70ed7ca5e9609d423c2670239"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "luajvm-core-1.0.0-sources.jar",
+          "url": "luajvm-core-1.0.0-sources.jar",
+          "size": 434181,
+          "sha512": "9de6a864ecc1c44d2bca95079586cb3c77d94113f36727526916460496f5d4cfb68a46cad1bc406cdcf68900d4fa32ee7220d14fdc2d99e80a777c21c50e83f9",
+          "sha256": "59b063028e65375bece4724dcd4ae89a19a84a81a1f0bfc29e689c11dc9cd901",
+          "sha1": "ebc69e7ab870585af9906f3824eb86970267972d",
+          "md5": "949ffe67c82c83f9c9945c360830e9bb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "luajvm-core-1.0.0-javadoc.jar",
+          "url": "luajvm-core-1.0.0-javadoc.jar",
+          "size": 710995,
+          "sha512": "54c8d4355264dcfebbbb259acda1e65dbb07c12f9b4c08f2c3294952eedb5a9d10ac43870e26c58781d35d4a3e3bde1306b5803c60379d28bfd10e9693377698",
+          "sha256": "01718c049b57724ada33f30c937d751247dea6283350eea81b2be237c2d8ef0b",
+          "sha1": "fced8f3c1c91312cfd9e560a16fde9c0c0d8f86d",
+          "md5": "9be44376f55077534715839f7db281af"
+        }
+      ]
+    }
+  ]
+}
