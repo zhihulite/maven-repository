@@ -1,0 +1,15 @@
+# 本仓库承载 Maven 制品，其内容必须逐字节稳定。
+#
+# repository/ 下一律关闭文本转换（-text）：
+#   * .module 内嵌了 AAR 的 size/sha512，且每个文件都另有 .md5/.sha1/.sha256/.sha512
+#     sidecar —— 换行归一化会改变字节数，使 sidecar 与文件对不上，
+#     消费方按校验和验证时即失败。
+#   * 制品来自各自的构建，原样保存才与发布者产出的字节一致；
+#     本仓库不是这些文件的作者，无权改写其内容。
+repository/** -text
+
+# 仓库自身的说明文档按普通文本处理。
+*.md    text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

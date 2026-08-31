@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.zhihulite</groupId>
+  <artifactId>luajvm-core</artifactId>
+  <version>1.0.0</version>
+  <name>luajvm-core</name>
+  <description>Lua 5.5.1 的纯 Java 移植：VM、标准库与 Java 绑定层。</description>
+  <url>https://github.com/zhihulite/luajvm</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/zhihulite/luajvm/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>zhihulite</id>
+      <name>zhihulite</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/zhihulite/luajvm.git</connection>
+    <url>https://github.com/zhihulite/luajvm</url>
+  </scm>
+</project>
